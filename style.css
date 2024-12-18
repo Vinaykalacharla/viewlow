@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+main {
+    background: linear-gradient(to right, #000000, #333231); 
+    color: silver; 
+    padding: 20px; 
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.logo {
+    width: 80px; /
+    height: auto;
+    margin: 15px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-button {
+    background: #ff4081;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+.more-platform {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.more-platform:hover {
+    background-color: #e0e0e0;
+}
+
+.more-platform img {
+    opacity: 0.5;
+}
+
+.more-platform h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.more-platform p {
+    font-size: 14px;
+    color: #666;
+}
+.platform .rent-now {
+    background-color: gold; 
+    color: #000; 
+}
+
+.more-platform button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more-platform button:hover {
+    background-color: #3e8e41;
+}
+
+.hero {
+    background-image: url("https://i.ibb.co/tqSPk0y/DALL-E-2024-12-12-15-28-19-A-detailed-and-vibrant-4-K-image-showcasing-15-different-Indian-OTT-platf.webp"), url("https://i.ibb.co/SQ5SW89/Screenshot-2024-12-11-231223.png"),url("https://i.ibb.co/GR2w7nT/DALL-E-2024-12-12-14-26-26-A-visually-appealing-4-K-banner-showcasing-the-text-The-Best-Rental-and-C.webp"), url("https://i.ibb.co/xMrZMHR/Screenshot-2024-12-11-231523.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: slide 20s infinite; /* Adjust duration as needed */
+}
+
+@keyframes slide {
+    0% { background-image: url("https://i.ibb.co/tqSPk0y/DALL-E-2024-12-12-15-28-19-A-detailed-and-vibrant-4-K-image-showcasing-15-different-Indian-OTT-platf.webp"); }
+    25% { background-image: url("https://i.ibb.co/SQ5SW89/Screenshot-2024-12-11-231223.png"); }
+    50% { background-image: url("https://i.ibb.co/xMrZMHR/Screenshot-2024-12-11-231523.png"); }
+    75% { background-image: url("https://i.ibb.co/GR2w7nT/DALL-E-2024-12-12-14-26-26-A-visually-appealing-4-K-banner-showcasing-the-text-The-Best-Rental-and-C.webp"); }
+    100% { background-image: url("https://i.ibb.co/tqSPk0y/DALL-E-2024-12-12-15-28-19-A-detailed-and-vibrant-4-K-image-showcasing-15-different-Indian-OTT-platf.webp"); }
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border
+}
+.platforms-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly */
+    flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+    margin: 20px 0; /* Adds some margin above and below the platforms */
+}
+
+.platform {
+    flex: 1; /* Allows the platform divs to grow and shrink */
+    max-width: 300px; /* Sets a maximum width for each platform */
+    margin: 10px; /* Adds some margin around each platform */
+    text-align: center; /* Centers the text inside each platform */
+    border: 1px solid #f8e231; /* Optional: adds a border around each platform */
+    border-radius: 5px; /* Optional: rounds the corners */
+    padding: 10px; /* Adds padding inside each platform */
+}

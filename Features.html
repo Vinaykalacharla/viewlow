@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIEWLOW Features</title>
+    <style>
+        body {
+            
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url('https://i.ibb.co/QJgFvP0/pexels-pixabay-33545.jpg'); 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+            
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            margin-top: -20px;
+        }
+
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            width: 250px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .box h2 {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .box p {
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+        .box.collaboration {
+            background-color: #432f45;
+            color: white;
+        }
+
+        .box.take-rent {
+            background-color: #9a718f;
+            color: white;
+        }
+        
+
+        .box.give-rent {
+            background-color: #47536a;
+            color: white;
+        }
+        .home-button h2 {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-button">
+        <h2>Home</h2>
+    </a>
+
+    <div class="container">
+        
+         <div class="box collaboration">
+            <h2>Collaboration</h2>
+            <p>Collaborative the Subscription with two or more people</p>
+         </div>
+        
+
+        
+        <a  href="takerent.html" class="box take-rent">
+            <h2>Take Rent</h2>
+            <p>Take rent of your required ott platform <br> For cheaper prices</p>
+        </a>
+
+       
+        <div class="box give-rent">
+            <h2>Give Rent</h2>
+            <p>Offer your Ott subscription for rent</p>
+        </div>
+    </div>
+
+</body>
+</html>
